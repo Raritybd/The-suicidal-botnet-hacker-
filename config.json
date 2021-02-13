@@ -1,0 +1,136 @@
+{
+	"$schema": "./schema/config.json",
+	"server": {
+		"slave": {
+			"enabled": true,
+			"host": ":10235"
+		},
+
+		"ssh": {
+			"enabled":true,
+			"host": ":31992",
+
+			"sshKeyAuth": true,
+			"passwordAuth": true
+		}
+	},
+
+	"auth": {
+		"keyDerivationFunction": 1,
+		"captcha": {
+			"enabled": true,
+			"mfa": true,
+			"maxTries": 4
+		}
+	},
+
+	"branding": {
+		"attackSent":"Your attack has been successfully sent.",
+		"blacklistBlock": "You are trying to attack a blacklisted target!",
+		"name": "Superior"
+	},
+
+	"database": {
+		"host": "localhost:3306",
+		"username": "slovidb",
+		"password": "f9BwtQEmEMssSDrYhr$D",
+		"dbname": "slovakia"
+	},
+
+	"disabledCommands": [
+		"help",
+		"bots",
+		"commands",
+		"attacks",
+		"home",
+		"attack"
+	],
+
+	"defaults": {
+		"users": {
+			"maxSessions": 2,
+			"attackCoolDown": 120,
+			"concurrents": 1,
+			
+			"vip": false,
+			"bypassBlacklist": false
+		}
+	},
+
+	"blacklist": {
+		"host": [
+			"1\\.1\\.1\\.1",
+			"8\\.8\\.8\\.8",
+			"0\\.0\\.0\\.0",
+			"1\\.1\\.2\\.2",
+			"9\\.9\\.9\\.9",
+			"158\\.69\\.122\\.150",
+
+			"(.*.gov)",
+			"(.*.gov.uk)",
+			"gov.uk",
+			"(.*google.com)",
+			"(.*google.co.uk)",
+			"(.*discord.com)",
+			"(.*discordapp.com)",
+			"(.*github.com)",
+			"(.*github.io)"
+		],
+
+		"username": [
+			"user",
+			"admin",
+			"mod",
+			"cnc",
+			"bot",
+			"slave"
+		]
+	},
+
+	"ports": [
+		{
+			"proto": "ssh",
+			"port": 22
+		},
+		{
+			"proto": "http",
+			"port": 80
+		},
+		{
+			"proto": "https",
+			"port": 443
+		},
+		{
+			"proto": "ftp",
+			"port": 20
+		},
+		{
+			"proto": "ftps",
+			"port": 21
+		},
+		{
+			"proto": "mysql",
+			"port": 3306
+		},
+		{
+			"proto": "rdp",
+			"port": 3389
+		},
+		{
+			"proto": "smb",
+			"port": 445
+		},
+		{
+			"proto": "xboxlive",
+			"port": 3074
+		},
+		{
+			"proto": "minecraft",
+			"port": 25565
+		},
+		{
+			"proto": "gopher",
+			"port": 70
+		}
+	]
+}

